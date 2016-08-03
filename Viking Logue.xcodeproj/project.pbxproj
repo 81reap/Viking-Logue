@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F661BE561D518945009A3A0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661BE551D518945009A3A0D /* AppDelegate.swift */; };
+		F661BE581D518945009A3A0D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661BE571D518945009A3A0D /* ViewController.swift */; };
+		F661BE5B1D518945009A3A0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F661BE591D518945009A3A0D /* Main.storyboard */; };
+		F661BE5D1D518945009A3A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F661BE5C1D518945009A3A0D /* Assets.xcassets */; };
+		F661BE601D518945009A3A0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F661BE5E1D518945009A3A0D /* LaunchScreen.storyboard */; };
+		F661BE6B1D518945009A3A0D /* Viking_LogueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661BE6A1D518945009A3A0D /* Viking_LogueTests.swift */; };
+		F661BE761D518945009A3A0D /* Viking_LogueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F661BE751D518945009A3A0D /* Viking_LogueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F661BE671D518945009A3A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F661BE4A1D518945009A3A0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F661BE511D518945009A3A0D;
+			remoteInfo = "Viking Logue";
+		};
+		F661BE721D518945009A3A0D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F661BE4A1D518945009A3A0D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F661BE511D518945009A3A0D;
+			remoteInfo = "Viking Logue";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F661BE521D518945009A3A0D /* Viking Logue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Viking Logue.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F661BE551D518945009A3A0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F661BE571D518945009A3A0D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F661BE5A1D518945009A3A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F661BE5C1D518945009A3A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F661BE5F1D518945009A3A0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F661BE611D518945009A3A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F661BE661D518945009A3A0D /* Viking LogueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Viking LogueTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F661BE6A1D518945009A3A0D /* Viking_LogueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viking_LogueTests.swift; sourceTree = "<group>"; };
+		F661BE6C1D518945009A3A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F661BE711D518945009A3A0D /* Viking LogueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Viking LogueUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F661BE751D518945009A3A0D /* Viking_LogueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Viking_LogueUITests.swift; sourceTree = "<group>"; };
+		F661BE771D518945009A3A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F661BE4F1D518945009A3A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661BE631D518945009A3A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661BE6E1D518945009A3A0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F661BE491D518945009A3A0D = {
+			isa = PBXGroup;
+			children = (
+				F661BE541D518945009A3A0D /* Viking Logue */,
+				F661BE691D518945009A3A0D /* Viking LogueTests */,
+				F661BE741D518945009A3A0D /* Viking LogueUITests */,
+				F661BE531D518945009A3A0D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F661BE531D518945009A3A0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F661BE521D518945009A3A0D /* Viking Logue.app */,
+				F661BE661D518945009A3A0D /* Viking LogueTests.xctest */,
+				F661BE711D518945009A3A0D /* Viking LogueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F661BE541D518945009A3A0D /* Viking Logue */ = {
+			isa = PBXGroup;
+			children = (
+				F661BE551D518945009A3A0D /* AppDelegate.swift */,
+				F661BE571D518945009A3A0D /* ViewController.swift */,
+				F661BE591D518945009A3A0D /* Main.storyboard */,
+				F661BE5C1D518945009A3A0D /* Assets.xcassets */,
+				F661BE5E1D518945009A3A0D /* LaunchScreen.storyboard */,
+				F661BE611D518945009A3A0D /* Info.plist */,
+			);
+			path = "Viking Logue";
+			sourceTree = "<group>";
+		};
+		F661BE691D518945009A3A0D /* Viking LogueTests */ = {
+			isa = PBXGroup;
+			children = (
+				F661BE6A1D518945009A3A0D /* Viking_LogueTests.swift */,
+				F661BE6C1D518945009A3A0D /* Info.plist */,
+			);
+			path = "Viking LogueTests";
+			sourceTree = "<group>";
+		};
+		F661BE741D518945009A3A0D /* Viking LogueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F661BE751D518945009A3A0D /* Viking_LogueUITests.swift */,
+				F661BE771D518945009A3A0D /* Info.plist */,
+			);
+			path = "Viking LogueUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F661BE511D518945009A3A0D /* Viking Logue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F661BE7A1D518945009A3A0D /* Build configuration list for PBXNativeTarget "Viking Logue" */;
+			buildPhases = (
+				F661BE4E1D518945009A3A0D /* Sources */,
+				F661BE4F1D518945009A3A0D /* Frameworks */,
+				F661BE501D518945009A3A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Viking Logue";
+			productName = "Viking Logue";
+			productReference = F661BE521D518945009A3A0D /* Viking Logue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F661BE651D518945009A3A0D /* Viking LogueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F661BE7D1D518945009A3A0D /* Build configuration list for PBXNativeTarget "Viking LogueTests" */;
+			buildPhases = (
+				F661BE621D518945009A3A0D /* Sources */,
+				F661BE631D518945009A3A0D /* Frameworks */,
+				F661BE641D518945009A3A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F661BE681D518945009A3A0D /* PBXTargetDependency */,
+			);
+			name = "Viking LogueTests";
+			productName = "Viking LogueTests";
+			productReference = F661BE661D518945009A3A0D /* Viking LogueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F661BE701D518945009A3A0D /* Viking LogueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F661BE801D518945009A3A0D /* Build configuration list for PBXNativeTarget "Viking LogueUITests" */;
+			buildPhases = (
+				F661BE6D1D518945009A3A0D /* Sources */,
+				F661BE6E1D518945009A3A0D /* Frameworks */,
+				F661BE6F1D518945009A3A0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F661BE731D518945009A3A0D /* PBXTargetDependency */,
+			);
+			name = "Viking LogueUITests";
+			productName = "Viking LogueUITests";
+			productReference = F661BE711D518945009A3A0D /* Viking LogueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F661BE4A1D518945009A3A0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Hax0rDoge;
+				TargetAttributes = {
+					F661BE511D518945009A3A0D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = WT5P96LFNF;
+					};
+					F661BE651D518945009A3A0D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F661BE511D518945009A3A0D;
+					};
+					F661BE701D518945009A3A0D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F661BE511D518945009A3A0D;
+					};
+				};
+			};
+			buildConfigurationList = F661BE4D1D518945009A3A0D /* Build configuration list for PBXProject "Viking Logue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F661BE491D518945009A3A0D;
+			productRefGroup = F661BE531D518945009A3A0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F661BE511D518945009A3A0D /* Viking Logue */,
+				F661BE651D518945009A3A0D /* Viking LogueTests */,
+				F661BE701D518945009A3A0D /* Viking LogueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F661BE501D518945009A3A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661BE601D518945009A3A0D /* LaunchScreen.storyboard in Resources */,
+				F661BE5D1D518945009A3A0D /* Assets.xcassets in Resources */,
+				F661BE5B1D518945009A3A0D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661BE641D518945009A3A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661BE6F1D518945009A3A0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F661BE4E1D518945009A3A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661BE581D518945009A3A0D /* ViewController.swift in Sources */,
+				F661BE561D518945009A3A0D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661BE621D518945009A3A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661BE6B1D518945009A3A0D /* Viking_LogueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F661BE6D1D518945009A3A0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F661BE761D518945009A3A0D /* Viking_LogueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F661BE681D518945009A3A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F661BE511D518945009A3A0D /* Viking Logue */;
+			targetProxy = F661BE671D518945009A3A0D /* PBXContainerItemProxy */;
+		};
+		F661BE731D518945009A3A0D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F661BE511D518945009A3A0D /* Viking Logue */;
+			targetProxy = F661BE721D518945009A3A0D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F661BE591D518945009A3A0D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F661BE5A1D518945009A3A0D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F661BE5E1D518945009A3A0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F661BE5F1D518945009A3A0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F661BE781D518945009A3A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F661BE791D518945009A3A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F661BE7B1D518945009A3A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Viking Logue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hax0rdoge.Viking-Logue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F661BE7C1D518945009A3A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "Viking Logue/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hax0rdoge.Viking-Logue";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F661BE7E1D518945009A3A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Viking LogueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hax0rdoge.Viking-LogueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viking Logue.app/Viking Logue";
+			};
+			name = Debug;
+		};
+		F661BE7F1D518945009A3A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Viking LogueTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hax0rdoge.Viking-LogueTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viking Logue.app/Viking Logue";
+			};
+			name = Release;
+		};
+		F661BE811D518945009A3A0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Viking LogueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hax0rdoge.Viking-LogueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Viking Logue";
+			};
+			name = Debug;
+		};
+		F661BE821D518945009A3A0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Viking LogueUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hax0rdoge.Viking-LogueUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Viking Logue";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F661BE4D1D518945009A3A0D /* Build configuration list for PBXProject "Viking Logue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F661BE781D518945009A3A0D /* Debug */,
+				F661BE791D518945009A3A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F661BE7A1D518945009A3A0D /* Build configuration list for PBXNativeTarget "Viking Logue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F661BE7B1D518945009A3A0D /* Debug */,
+				F661BE7C1D518945009A3A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F661BE7D1D518945009A3A0D /* Build configuration list for PBXNativeTarget "Viking LogueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F661BE7E1D518945009A3A0D /* Debug */,
+				F661BE7F1D518945009A3A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F661BE801D518945009A3A0D /* Build configuration list for PBXNativeTarget "Viking LogueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F661BE811D518945009A3A0D /* Debug */,
+				F661BE821D518945009A3A0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F661BE4A1D518945009A3A0D /* Project object */;
+}
