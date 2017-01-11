@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  Viking Logue
 //
-//  Created by Hax0rDoge on 8/2/16.
-//  Copyright © 2016 Hax0rDoge. All rights reserved.
+//  Created by Prayag Bhakar on 1/11/17.
+//  Copyright © 2017 Prayag Bhakar. All rights reserved.
 //
 
 import UIKit
