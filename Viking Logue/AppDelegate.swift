@@ -17,6 +17,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let request = NSURLRequest(url: NSURL(string: "http://vikinglogue.com/?json=1&count=12") as! URL)
+        
+        
         return true
     }
 
