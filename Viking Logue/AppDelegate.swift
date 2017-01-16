@@ -13,13 +13,17 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var json: JSON?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        let request = NSURLRequest(url: NSURL(string: "http://vikinglogue.com/?json=1&count=12") as! URL)
+        if let URL = NSURL(string: "http://vikinglogue.com/?json=1&count=12") {
+            let data = (Downloader.load(url: URL as URL))
+            json = JSON(data: data!)
+        }
         
+        print(json?["count_total"].intValue as Any)
         
         return true
     }

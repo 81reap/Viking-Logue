@@ -14,6 +14,7 @@
 		F6D993E91E26B1D0004B81CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D993E81E26B1D0004B81CD /* Assets.xcassets */; };
 		F6D993EC1E26B1D0004B81CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D993EA1E26B1D0004B81CD /* LaunchScreen.storyboard */; };
 		F6D993F41E26B68E004B81CD /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D993F31E26B68E004B81CD /* SwiftyJSON.swift */; };
+		F6EAF7651E28011D006C5829 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EAF7641E28011D006C5829 /* Downloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F6D993EB1E26B1D0004B81CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6D993ED1E26B1D0004B81CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6D993F31E26B68E004B81CD /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		F6EAF7641E28011D006C5829 /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		F6D993DD1E26B1D0004B81CD /* Viking Logue */ = {
 			isa = PBXGroup;
 			children = (
+				F6EAF7631E280109006C5829 /* Extensions */,
 				F6D993F51E26B693004B81CD /* Packages */,
 				F6D993DE1E26B1D0004B81CD /* AppDelegate.swift */,
 				F6D993E01E26B1D0004B81CD /* ViewController.swift */,
@@ -76,6 +79,14 @@
 				F6D993F31E26B68E004B81CD /* SwiftyJSON.swift */,
 			);
 			name = Packages;
+			sourceTree = "<group>";
+		};
+		F6EAF7631E280109006C5829 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F6EAF7641E28011D006C5829 /* Downloader.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6EAF7651E28011D006C5829 /* Downloader.swift in Sources */,
 				F6D993E11E26B1D0004B81CD /* ViewController.swift in Sources */,
 				F6D993DF1E26B1D0004B81CD /* AppDelegate.swift in Sources */,
 				F6D993E71E26B1D0004B81CD /* Viking_Logue.xcdatamodeld in Sources */,
@@ -320,6 +332,7 @@
 				F6D993F21E26B1D0004B81CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
