@@ -29,11 +29,11 @@ class MenuTableViewController: UITableViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        var endViewController = segue.destination as! MainViewController
-        
-        var indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow! as NSIndexPath
+        let endViewController = segue.destination as! MainViewController
+        let indexPath : NSIndexPath = self.tableView.indexPathForSelectedRow! as NSIndexPath
         
         endViewController.viewNum = indexPath.row
+        
     }
     
 }

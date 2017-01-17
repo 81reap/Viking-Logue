@@ -22,10 +22,17 @@ class MainViewController: UITableViewController {
         
         Open.target = self.revealViewController()
         Open.action = #selector(SWRevealViewController.revealToggle(_:))
-        
         self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         
         self.title = menuItems[0]
+        //let navigationBar = navigationController!.navigationBar
+        //navigationBar.tintColor = UIColor.blue
+        //navigationItem.leftBarButtonItem =  UIBarButtonItem(title: "Open", style: UIBarButtonItemStyle.plain, target: self, action: nil)
+        //navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Right Button", style: UIBarButtonItemStyle.plain, target: self, action: nil)
+    }
+    
+    func positionForBar(bar: UIBarPositioning) -> UIBarPosition {
+        return UIBarPosition.topAttached
     }
     
     override func didReceiveMemoryWarning() {
