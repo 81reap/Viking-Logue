@@ -1,4 +1,4 @@
-# Viking Logue
+# Viking Logue - [Developemt Stopped]
 
 This is a simple iOS application written in Swift that allows you to read the the articles found [here](http://vikinglogue.com).
 

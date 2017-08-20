@@ -18,7 +18,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
-        if let URL = NSURL(string: "http://vikinglogue.com/?json=1&count=666") {
+        if let URL = NSURL(string: "http://vikinglogue.com/?json=1&count=1") {
             let data = (Downloader.load(url: URL as URL))
             json = JSON(data: data!)
         }
