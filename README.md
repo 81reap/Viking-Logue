@@ -1,10 +1,10 @@
-# Viking Logue - [Developemt Stopped]
+# Viking Logue - [Development Stopped]
 
 This is a simple iOS application written in Swift that allows you to read the the articles found [here](http://vikinglogue.com).
 
-## Installation
+### Installation
 You can open up the source code and add your won developer account to it in order to make it work. Alternatively, you can get it [here]() from the AppStore.
-## License
+### License
 The MIT License (MIT)
 
 Copyright (c) 2016 Prayag Bhakar
