@@ -3,7 +3,7 @@
 This is a simple iOS application written in Swift that allows you to read the the articles found [here](http://vikinglogue.com).
 
 ### Installation
-You can open up the source code and add your won developer account to it in order to make it work. Alternatively, you can get it [here]() from the AppStore.
+You can open up the source code and add your own developer account to it in order to make it work. Alternatively, you can get it [here]() from the AppStore.
 ### License
 The MIT License (MIT)
 
